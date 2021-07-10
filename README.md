@@ -3,11 +3,14 @@ Make a web service that accepts two distances (numbers) and returns the total di
 
 <img src="distance_calculator/img.png" width="200"/>
 
-#Files
+# Files
 added a route under Api directory
+
 created a controller to handle the requests
-added 2 functions 
+
+added 2 functions
+ 
 1. processData - To proess the incoming request and neccesary validation
-2. get_distance - to calcute distance
+2. get_distance - To calcute distance
 	- parametes(unit,array data) -> returns a float
 	
