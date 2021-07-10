@@ -14,3 +14,16 @@ added 2 functions
 2. get_distance - To calcute distance
 	- parametes(unit,array data) -> returns a float
 	
+# example
+POST http://127.0.0.1:8000/api/calculate_distance
+Content-Type: application/json
+
+{
+  "first_distance": {"meters":5},
+  "second_distance": {"yards":3},
+  "unit": "meters"
+}
+
+# response	
+"7.74 meters"
+	
